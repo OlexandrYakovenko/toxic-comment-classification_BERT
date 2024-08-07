@@ -1,0 +1,9 @@
+services:
+  tt3_project-with-data:
+    image: olexandryakovenko/tt3_project-with-data:latest
+    ports:
+      - "8501:8501"  # Маппінг портів, якщо ваш додаток використовує порт 8501
+    #volumes:
+    #- .:/app
+    #  - ./data:/app/data  # Маппінг директорій, якщо потрібно зберігати дані
+    #  - ./model:/app/model  # Маппінг директорій, якщо потрібно зберігати дані     
